@@ -6,6 +6,12 @@ It was built as a hobby project to put the information and controls that matter 
 
 > **Unofficial project.** This is not a Ubiquiti product and is not affiliated with Ubiquiti.
 
+## Preview
+
+![UniFi Protect-First Dashboard](docs/images/dashboard-preview.png)
+
+> **Privacy note:** The camera-feed imagery in this screenshot has been replaced with representative scenes to protect privacy. The dashboard UI, layout and controls shown are from the actual application.
+
 ## Features
 
 - Protect-first dashboard layout
