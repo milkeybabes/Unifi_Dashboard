@@ -1,0 +1,22 @@
+services:
+  unifi-dashboard:
+    build:
+      context: .
+    image: unifi-protect-first-dashboard:v3.3.1
+    container_name: unifi-dashboard
+    restart: unless-stopped
+    init: true
+
+    ports:
+      - "8088:8088"
+
+    environment:
+      TZ: "${TZ:-UTC}"
+      UNIFI_CONFIG: "/config/Unifi.ini"
+      DASHBOARD_PORT: "8088"
+
+    volumes:
+      - ./config:/config:ro
+      - ./logs:/app/logs
+
+    stop_grace_period: 15s

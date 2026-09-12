@@ -1,0 +1,22 @@
+# UniFi Protect-First Dashboard configuration
+# Copy this file to Unifi.ini and enter your real values.
+# NEVER commit the real Unifi.ini to GitHub.
+
+DeviceIP=192.168.1.1
+API_Key=YOUR_UNIFI_INTEGRATION_API_KEY
+
+# Local UniFi / Protect account used only for native Protect live video.
+# Prefer a dedicated local account with the minimum permissions required.
+Protect_User=YOUR_LOCAL_PROTECT_USERNAME
+Protect_Password=YOUR_LOCAL_PROTECT_PASSWORD
+
+# Optional: add exactly one remote Protect snapshot tile.
+# If Remote_API_Key is omitted, remote-camera support is completely skipped.
+# Remote_Camera_Name is an exact, case-insensitive camera name.
+# Remote_Camera_ID may be used instead of the name.
+# Remote_Console_ID is only needed if the same camera name/ID can match more than one console.
+#
+# Remote_API_Key=YOUR_UI_CLOUD_API_KEY
+# Remote_Camera_Name=Front Garden
+# Remote_Camera_ID=
+# Remote_Console_ID=

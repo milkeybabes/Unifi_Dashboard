@@ -1,0 +1,13 @@
+{
+  "name": "unifi-protect-first-dashboard",
+  "version": "3.3.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.20.0"
+  },
+  "dependencies": {
+    "unifi-protect": "5.3.1",
+    "ws": "8.21.3"
+  }
+}
